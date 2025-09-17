@@ -38,7 +38,7 @@ const products = [
     name: "Modi 2 (Standard & Uber)",
     releaseDate: "2014-12-12",
     category: "DACs",
-    image: "images/2014-12-12-modi2/modi2-main-1920.jpg",
+    image: "images/2014-12-12-modi2/Modi2-main-1920.jpg",
     url: "products/2014-12-12-modi2.html"
   },
   {
@@ -63,3 +63,4 @@ const products = [
     url: "products/2017-09-26-loki-mini.html"
   }
 ];
+
