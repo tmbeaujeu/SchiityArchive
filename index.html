@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Schiity Archive</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <script src="products.js"></script>
+  <script defer src="archive.js"></script>
+</head>
+<body>
+<header>
+  <div class="logo"><a href="index.html">Schiity Archive</a></div>
+  <nav>
+    <a href="index.html" class="active">The Archive</a>
+    <a href="about.html">About</a>
+    <a href="https://www.schiit.com/" target="_blank">Schiit's Website</a>
+    <a href="https://www.amazon.com/Schiit-Happened-Worlds-Improbable-Start-Up/dp/1514355027" target="_blank">Read Jason's Book</a>
+  </nav>
+</header>
+
+
+ <main>
+  <h1>Welcome to the Schiity Archive!</h1>
+    <p>Here you can find schiit's discontinued products and their accompanying information.</p>
+
+  <div class="controls">
+    <input type="text" id="search-bar" placeholder="Search the archive">
+
+    <label for="category-filter">Category:</label>
+    <select id="category-filter">
+      <option value="all">All</option>
+      <option value="Gaming">Gaming</option>
+      <option value="Speaker Amps">Speaker Amps</option>
+      <option value="Headphone Amps">Headphone Amps</option>
+      <option value="DACs">DACs</option>
+      <option value="Preamps">Preamps</option>
+      <option value="Phono">Phono</option>
+      <option value="EQ">EQ</option>
+      <option value="CD/DDC">CD/DDC</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <label for="sort-order">Sort by:</label>
+    <select id="sort-order">
+      <option value="desc">Newest First</option>
+      <option value="asc">Oldest First</option>
+    </select>
+  </div>
+
+  <div class="product-grid" id="items-grid"></div>
+</main>
+</body>
+</html>
